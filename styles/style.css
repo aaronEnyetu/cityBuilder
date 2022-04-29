@@ -94,3 +94,28 @@ footer {
     display: flex;
     flex-direction: row;
 }
+.city {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    width: 1000px;
+    
+    
+}
+.eco {
+    border: 5px solid black;
+    margin: 30px;
+    
+
+}
+.future {
+    border: 5px solid black;
+    margin: 30px;
+}
+.capital {
+    border: 5px solid black;
+    margin: 30px;
+}
+.bottom {
+    width: 600px;
+}
