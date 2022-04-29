@@ -4,6 +4,9 @@ const ecocityEl = document.getElementById('eco');
 
 const futurecityDropdown = document. getElementById('futureCity-dropdown');
 const futurecityEl = document.getElementById('future');
+
+const capitalcityDropdown = document.getElementById('capitalCity-dropdown');
+const capitalcityEl = document.getElementById('capital');
 // let state
 
 // set event listeners 
@@ -15,6 +18,10 @@ ecocityDropdown.addEventListener('change', () => {
 futurecityDropdown.addEventListener('change', () => {
     futurecityEl.style.backgroundImage = `url('./assets/${futurecityDropdown.value}-future.jpg')`;
 
+});
+
+capitalcityDropdown.addEventListener('change', () => {
+    capitalcityEl.style.backgroundImage = `url('./assets/${capitalcityDropdown.value}-capital.jpg')`;
 });
   // get user input
   // use user input to update state 
